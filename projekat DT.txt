@@ -1,0 +1,615 @@
+﻿<!doctype html>
+<html>
+<head>
+	<title>Drugi svetski rat</title>
+	<style>		body{background-color:#aaa;
+				background-size:cover;
+				background-repeat: no-repeat;}
+			.tekst{font-family: "Andalé Mono", monospace;
+				font-size:25px;
+				text-align:center;
+				color:black;
+				margin-top:-120px;
+				margin-left:1680px;
+				margin-bottom:80px;
+				text-shadow: 4px 4px 4px rgba(1, 0, 0, 0.7);}
+			.tekst1 {font-family: "Luminari", fantasy;
+				font-size:70px;
+				text-align:center;
+				color:black;
+				margin-top:-10px;	
+				text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.7);}
+			.tekst2{font-family: "Andalé Mono", monospace;
+				font-size:30px;
+				text-align:center;
+				color:black;
+				margin-top:-50px;
+				margin-left:285px;
+				text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);}
+			.tekst3{font-family: "Trebuchet MS", sans-serif;
+				font-size:30px;
+				margin-top:30px;
+				text-align:center;
+				color:black;
+				background: rgba(255,255,255,0.6);
+				padding:2px;}
+			
+			.container{ width:300px;
+				height:300px;
+				border-radius:50%;
+				position:relative;
+				margin-top:-480px;
+				margin-left:110px;}
+			.slika{width:100%;
+				height:100%;
+				border-radius:50%;
+				object-fit:cover;
+				display-block;
+				}
+			.container2{position:absolute;
+				top:0;
+				right:0;
+				bottom:0;
+				left:0;
+				width:100%;
+				height:100%;
+				opacity:0%;
+				border-radius:50%;
+				background-color:grey;
+				transition: .5s ease;}
+			.container:hover .container2{opacity:2;}
+			.container3{color:white;
+				position:absolute;
+				font-size:20px;
+				top:50%;
+				left:50%;
+				transform:translate(-50%, -50%);}
+
+			.kontejner{width:300px;
+				height:300px;
+				border-radius:50%;
+				position:relative;
+				margin-top:-310px;
+				margin-left:780px;}
+			.slika1{width:100%;
+				height:100%;
+				border-radius:50%;
+				object-fit:cover;
+				display-block;
+				}
+			.container21{position:absolute;
+				top:0;
+				right:0;
+				bottom:0;
+				left:0;
+				width:100%;
+				height:100%;
+				opacity:0%;
+				border-radius:50%;
+				background-color:grey;
+				transition: .5s ease;}
+			.kontejner:hover .container21{opacity:2;}
+			.container31{color:white;
+				position:absolute;
+				font-size:20px;
+				top:50%;
+				left:50%;
+				transform:translate(-50%, -50%);}
+			.tekst4{font-family: "Trebuchet MS", sans-serif;
+				font-size:30px;
+				margin-top:100px;
+				margin-bottom:120px;
+				margin-right:1380px;
+				text-align:center;
+				color:black;}
+			.tekst5{font-family: "Trebuchet MS", sans-serif;
+				font-size:30px;
+				margin-top:-160px;
+				margin-bottom:120px;
+				margin-left:720px;
+				text-align:center;
+				color:black;}
+
+			.kontejner1{ width:300px;
+				height:300px;
+				border-radius:50%;
+				position:relative;
+				margin-top: -300px;
+				margin-left:1150px;}
+
+			.slika2{width:100%;
+				height:100%;
+				border-radius:50%;
+				object-fit:cover;
+				display-block;
+				}
+			.container22{position:absolute;
+				top:0;
+				right:0;
+				bottom:0;
+				left:0;
+				width:100%;
+				height:100%;
+				opacity:0%;
+				border-radius:50%;
+				background-color:grey;
+				transition: .5s ease;}
+			.kontejner1:hover .container22{opacity:2;}
+			.container32{color:white;
+				position:absolute;
+				font-size:20px;
+				top:50%;
+				left:50%;
+				text-align:center;
+				transform:translate(-50%, -50%);}
+
+			
+			.kontejner5{width:300px;
+				height:300px;
+				border-radius:50%;
+				position:relative;
+				margin-top:-300px;
+				margin-left:1500px;}
+			.slika5{width:100%;
+				height:100%;
+				border-radius:50%;
+				object-fit:cover;
+				display-block;
+				}
+			.container55{position:absolute;
+				top:0;
+				right:0;
+				bottom:0;
+				left:0;
+				width:100%;
+				height:100%;
+				opacity:0%;
+				border-radius:50%;
+				background-color:grey;
+				transition: .5s ease;}
+			.kontejner5:hover .container55{opacity:2;}
+			.container5{color:white;
+				position:absolute;
+				font-size:20px;
+				top:50%;
+				left:50%;
+				transform:translate(-50%, -50%);}
+
+			.tekst6{font-family: "Trebuchet MS", sans-serif;
+				font-size:25px;
+				margin-top:400px;
+				margin-bottom:-180px;
+				margin-left:90px;
+				text-align:left;
+				color:black;}
+			ul.a{list-style-type:circle;
+				margin-top:120px;
+				margin-left:150px;
+				font-size:30px;}
+			.tekst7{font-family: "Trebuchet MS", sans-serif;
+				font-size:25px;
+				margin-top:150px;
+				margin-bottom:100px;
+				margin-left:720px;
+				text-align:center;
+				color:black;}
+			ul.b{list-style-type:circle;
+				margin-top:-263px;
+				margin-left:1150px;
+				font-size:30px;}
+			.slikka{border:2px solid black;
+				width:1884px;
+				height:500px;
+				margin-top:50px;
+				margin-bottom:120px;}
+			.tekst8{font-family: "Trebuchet MS", sans-serif;
+				font-size:25px;
+				margin-top:10px;
+				margin-bottom:-180px;
+				margin-left:30px;
+				text-align:left;
+				color:black;}
+			.tekst9{font-family: "Trebuchet MS", sans-serif;
+				font-size:25px;
+				margin-top:250px;
+				margin-left:30px;
+				text-align:left;
+				color:black;}
+			.tekst10{font-family: "Trebuchet MS", sans-serif;
+				font-size:25px;
+				margin-top:67px;
+				margin-left:30px;
+				text-align:left;
+				color:black;}
+			.tekst11{font-family: "Trebuchet MS", sans-serif;
+				font-size:25px;
+				margin-bottom:-180px;
+				margin-top:250px;
+				margin-left:30px;
+				text-align:left;
+				color:black;}
+			.tekst12{font-family:"Times New Roman", serif;
+				margin-bottom:-180px;
+				margin-top:-90px;
+				margin-left:0px;
+				font-size:35px;
+				text-align:center;
+				color:black;
+				background: rgba(255,255,255,0.6);
+				padding-left:16px;}
+			img.prva{width:540px;
+				height:540px;
+				border-radius:10%;
+				margin-bottom:20px;
+				margin-left:1290px;
+				margin-top:-880px;}
+			#okvir {width: 1000px;
+				height: 400px;
+				background-color: rgba(255,255,255,0.6);
+				padding-left: 30px;
+				padding-right: 30px;
+				padding-bottom: 140px;
+				test-align:center;		
+				margin-top:240px;
+				margin-left: 80px;
+				margin-right:-150px;
+				border-style: dotted;
+				border-color:white;}
+			.bomba{border:2px solid black;
+				width:780px;
+				height:500px;
+				margin-top:50px;
+				margin-bottom:120px;
+				margin-left:70px;}
+			.bam{border:2px solid black;
+				width:800px;
+				height:500px;
+				margin-top:50px;
+				margin-bottom:120px;
+				margin-left:150px;}
+			.tekst13{font-family: "Trebuchet MS", sans-serif;
+				font-size:25px;
+				margin-top:-80px;
+				text-align:center;
+				color:black;
+				background: rgba(255,255,255,0.6);
+				padding:2px;}
+			.tekst15{font-family: "Trebuchet MS", sans-serif;
+				font-size:28px;
+				margin-top:180px;
+				text-align:left;
+				color:black;}
+			.tekst14{font-family:"Times New Roman", serif;
+				font-size:20px;
+				margin-bottom:-80px;
+				margin-top:50px;
+				margin-left:0px;
+				font-size:40px;
+				text-align:center;
+				color:black;
+				background: rgba(255,255,255,0.6);
+				padding:-4px -4px;}
+			.tekst16{font-family: "Trebuchet MS", sans-serif;
+				font-size:35px;
+				margin-top:-210px;
+				text-align:left;
+				color:black;}
+			.kacusa{border:2px solid black;
+				width:800px;
+				height:500px;
+				margin-top:150px;
+				margin-bottom:120px;
+				margin-left:1050px;}
+			.iframe{margin-top:-623px;
+				margin-left:50px;}
+			.tekst17{font-family:"Times New Roman", serif;
+				font-size:20px;
+				margin-bottom:-80px;
+				margin-top:50px;
+				margin-left:0px;
+				font-size:40px;
+				text-align:center;
+				color:black;
+				background: rgba(255,255,255,0.6);
+				padding:-10px;}
+			.tekst18{font-family: "Trebuchet MS", sans-serif;
+				font-size:25px;
+				margin-top:130px;
+				text-align:center;
+				color:black;
+				background: rgba(255,255,255,0.6);
+				padding:2px;}
+
+			table,th,td{border:4px solid black;
+					width:700px;
+					height:33px;
+					font-size:25px;
+					text-align:center;
+					margin-left:160px;
+					margin-top:140px;
+					background: rgba(255,255,255,0.3);
+					}
+			.tabela{margin-left:1020px;
+				margin-top:-190px;}
+	
+			.tekst19{font-family:"Times New Roman", serif;
+				font-size:35px;
+				margin-left:-8px;
+				margin-top:-336px;
+				text-align:center;
+				color:black;}
+			.tekst20{font-family: "Trebuchet MS", sans-serif;
+				font-size:28px;
+				margin-top:300px;
+				text-align:left;
+				color:black;}
+			.kursk{border:2px solid black;
+				width:800px;
+				height:500px;
+				margin-top:40px;
+				margin-bottom:120px;
+				margin-left:1020px;}
+			.planes{border:2px solid black;
+				width:800px;
+				height:500px;
+				margin-top:-625px;
+				margin-bottom:1320px;
+				margin-left:70px;}
+			.rov{border:2px solid black;
+				width:800px;
+				height:500px;
+				margin-top:-450px;
+				margin-bottom:750px;
+				margin-left:-330px;}
+			.tekst21{font-family:"Times New Roman", serif;
+				font-size:20px;
+				margin-bottom:-80px;
+				margin-top:-750px;
+				margin-left:0px;
+				font-size:40px;
+				text-align:center;
+				color:black;
+				background: rgba(255,255,255,0.6);
+				padding:-10px;}
+			.tekst22{font-family: "Trebuchet MS", sans-serif;
+				font-size:25px;
+				margin-top:130px;
+				text-align:center;
+				color:black;
+				background: rgba(255,255,255,0.6);
+				padding:2px;}
+			.dand{border:2px solid black;
+				width:1200px;
+				height:700px;
+				margin-top:60px;
+				margin-bottom:750px;
+				margin-left:310px;}
+			.tekst23{font-family: "Trebuchet MS", sans-serif;
+				font-size:28px;
+				margin-top:-740px;
+				text-align:center;
+				color:black;}
+			.iframe2{margin-top:60px;
+				margin-left:30px;}
+			.reichstag{border:2px solid black;
+				width:800px;
+				height:500px;
+				margin-top:-507px;
+				margin-bottom:750px;
+				margin-left:960px;}
+			.slikkka{border:2px solid black;
+				width:1884px;
+				height:500px;
+				margin-top:-1200px;
+				margin-bottom:190px;}
+			.tekst24{font-family:"Times New Roman", serif;
+				font-size:20px;
+				margin-bottom:-80px;
+				margin-top:-200px;
+				margin-left:0px;
+				font-size:40px;
+				text-align:center;
+				color:black;
+				background: rgba(255,255,255,0.6);
+				padding:-10px;}
+			.film1{margin-top:150px;
+				margin-left:100px;}
+			.film11{width:660px;
+				height:350px;}
+			.film2{margin-top:-355px;
+				margin-left:1120px;}
+			.film3{margin-top:155px;
+				margin-left:1120px;}
+			.film4{margin-top:-355px;
+				margin-left:100px;}
+			.film5{margin-top:150px;
+				margin-left:100px;}
+			.film6{margin-top:-355px;
+				margin-left:1120px;}
+		
+			.zavise{font-family:"Times New Roman", serif;
+				font-size:20px;
+				margin-bottom:-80px;
+				margin-top:100px;
+				margin-left:0px;
+				font-size:40px;
+				text-align:center;
+			a.zavise:hover{color:hotpink;}
+	</style>
+</head>
+<body>
+	<h1 class="tekst1">Drugi svetski rat</h1>
+	<p class="tekst"><b>Damian Tir II.<sub>1</sub><b></p>
+	<p class="tekst2"><b>1939-1945</b></p>
+	<div class="tekst3">
+		<p><span class="highlight"><b>U Drugom svetskom ratu je učestvovala većina tadašnjih država sveta, <br>uključujući i sve velike sile, koje su osnovale dva suprotstavljena vojna saveza:<br> sile <u>Osovine</u> (na čelu sa Nemačkom) i <u>Saveznic</u>i (na čelu sa SSSR, Ujedinjenim Kraljevstvom i SAD). </b></span></p></div>
+	<div class="tekst4">
+		<p>Sile osovine</p></div>
+	<div class="tekst5">
+		<p>Saveznici</p></div>
+	<div class="tekst6">
+		<p>Ostali pripadnici sile Osovine</p></div>
+	<div class="tekst7">
+		<p>Ostali pripadnici Saveznika</p></div>
+
+	<div class="container">
+		<img src="nemacka.jpg" class="slika">
+		<div class="container2">
+			<div class="container3">Nemačka</div>
+		</div>
+	</div>
+
+
+	<div class="kontejner">
+		<img src="sssr.jpg" class="slika1">
+		<div class="container21">
+			<div class="container31">SSSR</div>
+		</div>
+	</div>
+
+
+	<div class="kontejner1">
+		<img src="uk.jpg" class="slika2">
+		<div class="container22">
+			<div class="container32">Ujedinjeno kraljevstvo</div>
+		</div>
+	</div>
+	
+	
+	<div class="kontejner5">
+		<img src="usa.jpg" class="slika5">
+		<div class="container55">
+			<div class="container5">SAD</div>
+		</div>
+	</div>
+
+	<ul class="a">	
+		<li><b>Italija</b></li>
+		<li><b>Mađarska</b></li>
+		<li><b>Japan</b></li>
+		<li><b>Finska</b></li>
+		<li><b>Rumunija</b></li>
+		<li><b>Hrvatska</b></li>
+		<li><b>Bugarska</li>
+	</ul>
+	<ul class="b">	
+		<li><b>Jugoslavija</b></li>
+		<li><b>Kina</b></li>
+		<li><b>Francuska</b></li>
+		<li><b>Poljska</b></li>
+		<li><b>Kanada</b></li>
+		<li><b>Grčka</b></li>
+	</ul>
+	<img class="slikka" src="t34.jpg">
+	<div class="tekst12">
+		<h1><b>Početak rata</b></h1></div>
+	<div id="okvir">
+	<div class="tekst8">
+		<p><b>01.09.1939. godine nacistička Nemačka je napala Poljsku i time započela Drugi svetski rat.</b></div>
+	<div class="tekst11">
+		<p><b>Poljska je pala posle 28 dana. Nije imala šanse protiv obe modernije vojske koje su je napadale sa dve suprotne strane.</b></div>
+	<div class="tekst9">
+		<p><b>Još pre napada, Nemačkoj su se priključile:<u> Austrija</u> i <u>Čehoslovačka</u> a kasnije <u>Mađarska</u>, <u>Rumunija</u> i <u>Bugarska</u>.</b></div>
+	<div class="tekst10">
+		<p><b>Do 1942. godine, Nemačka je stekla značajnu kontrolu nad velikim delom Evrope i Severne Afrike.</b></span></p></div></b></div>
+	</div>
+	<img class="prva" src="nemacka1942.png">
+	<img class="bomba" src="bombardovanje.jpg">
+	<img class="bam" src="streljanje.jpg">
+	<div class="tekst13">
+		<p>Nemačka je 1943/44. počela da slabi na istočnom frontu. 1943 godine je izgubila Stalingrad i ta bitka je označila prvi veći poraz Nemačke.<br>Ostale delove teritorije je gubila zbog nepoznavanja terena i jer nemačka vojska nije navikla na Rusku zimu.<br> Zima je dovela do <u>mnogobrojnih bolesti</u> i <u>gladovanja</u> kod obe strane.<br><br>Rusi su takođe imali jedno oružje koje im je davalo veliku prednost. To su bile <u>Kaćuše</u> (Катюша).</p></div>
+	<div class="tekst14">
+		<h2>Kaćuše</h2></div>
+	<div class="tekst15">
+		<p> Veliki broj raketa koji bi bio ispaljen istovremeno izazivao je paniku i dezorganizaciju u redovima protivnika.<br> Osim toga, kaćuše su imale psihološki efekat na neprijatelja zbog zvuka koji su stvarale prilikom ispaljivanja, zbog čega su ih nemački vojnici nazivali <u>"Staljinov orgulje"</u> ili <u>"Orgulje smrti"</u>.</p></div>
+	<div class="tekst16">
+		<p><u>Kaćuše su bile višecevni bacači raketa.</u></p></div>
+	<img class="kacusa" src="kacusa.jpg">
+	<div class="iframe">
+	<iframe width="800" height="500" src="https://www.youtube.com/embed/Kwl063vNChY?start=8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+	<div class="tekst17">
+		<h2>Bitka kod Kurska</h2></div>
+	<div class="tekst18">
+		<p>Bitka kod Kurska je bila najveća <u>kopnena i vazduhoplovna</u> bitka u istoriji čovečanstva.<br>Ova velika tenkovska bitka trajala je od početka jula do kraja avgusta 1943. godine. <br>Nemačka vojska je pokrenula ofanzivu sa ciljem da probije sovjetske odbrambene linije i zauzme grad Kursk, ali bezuspešno. </p></div>
+		<table>
+		<tr>
+			<th colspan="2">SSSR</th>
+		</tr>
+		<tr>
+			<td>Broj vojnika</td>
+			<td>2 000 000</td>
+		</tr>
+		<tr>
+			<td>Broj tenkova</td>
+			<td>~6000</td>
+		</tr>
+		<tr>
+			<td>Broj aviona</td>
+			<td>2000-3000</td>
+		</tr>
+		</table>
+		<table class="tabela">
+		<tr>
+			<th colspan="2">Nemačka</th>
+		</tr>
+		<tr>
+			<td>Broj vojnika</td>
+			<td>1 000 000</td>
+		</tr>
+		<tr>
+			<td>Broj tenkova</td>
+			<td>~2700</td>
+		</tr>
+		<tr>
+			<td>Broj aviona</td>
+			<td>~2000</td>
+		</tr>
+		</table>
+		<div class="tekst19">	
+		<h2>Jačina</h2></div>
+		<div class="tekst20">
+		<p>Sovjetski gubici: <br>preko <u>800 000</u> poginulih ili ranjenih, <u>6000</u> uništenih ili oštećenih tenkova i oko <u>4000</u> uništenih aviona. <br><br> Nemački gubici:<br> <u>500 000</u> poginulih, zarobljenih ili nestalih, oko <u>900</u> aviona i <u>800</u> tenkova.</p></div>
+		<img class="kursk" src="kursk.jpg">
+		<img class="planes" src="planes.jpg">
+		<img class="rov" src="kursk2.jpg">
+		<div class="tekst21">
+			<h2>Bitka za Normandiju (Dan D)</h2></div>
+		<div class="tekst22">
+			<p>Bitka za normandiju je trajala od 6. juna do 25. avgusta 1944. godine. <br>To je bila ključna vojna operacija savezničkih snaga sa ciljem da oslobode zapadnu Evropu od nacističke okupacije.<br> Savezničke snage, koje su se sastojale uglavnom od <u>američkih</u>, <u>britanskih</u> i <u>kanadskih</u> trupa, iskrcavale su se na obali <u>Normandije</u> u severnoj Francuskoj.<br> Ova invazija, poznata i kao Dan D (Dan iskrcavanja), bila je najveći amfibijski napad u istoriji.<br><br> Saveznici su se iskrcavali na golu plažu, bez i malo zaklona, dok ih je sa suprotne strane čekalo desetine mitraljeza. </p></div>
+		<img class="dand" src="dan d.jpg">
+		<div class="tekst23">
+			<p>Tokom Bitke za Normandiju, žrtve na strani saveznika bile su značajne. Uobičajeno se procenjuje da su pretrpele oko <u>209 000</u> mrtvih, ranjenih ili nestalih vojnika tokom bitke.<br><br><br>Savezničke snage su nastavile da snažno napreduju u narednim godinama. Kombinacija savezničkih vojnih operacija, ekonomskog sloma nacističke Nemačke i unutrašnjeg otpora ugrozila je nacistički režim.<br><br> U aprilu 1945. godine, savezničke snage su zauzele Berlin, a <u>Adolf Hitler je izvršio samoubistvo</u>.<br> Konačno, <u>8. maja 1945.</u> godine, potpisana je Kapitulacija Nemačke, označavajući zvanični kraj rata u Evropi.</p></div>
+		<div class="iframe2">
+		<iframe width="800" height="500" src="https://www.youtube.com/embed/mJBLlBvI3bw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+		<img class="reichstag" src="reichstag.jpg">
+		<img class="slikkka" src="kraj.jpg"> 
+		<div class="tekst24">
+			<h2>Par filmova na ovu temu</h2></div>	
+		<div class="film1">
+		<a href="https://www.youtube.com/watch?v=S1Qj_AVu2pA&ab_channel=KewlBeans-MovieTrailers">
+		<img class="film11" src="film1.jpg"></div>	
+
+		<div class="film2">
+		<a href="https://www.youtube.com/watch?v=a5A7QboG8Nk&ab_channel=moviemaniacsDE">
+		<img class="film11" src="film2.jpg"></div>
+
+		<div class="film3">
+		<a href="https://www.youtube.com/watch?v=4O-sMh_DO6I&ab_channel=RottenTomatoesClassicTrailers">
+		<img class="film11" src="film3.jpg"></div>
+			
+		<div class="film4">
+		<a href="https://www.youtube.com/watch?v=6h2E4Raeqvg&ab_channel=TrailerChan">
+		<img class="film11" src="film4.jpg"></div>
+
+		<div class="film5">
+		<a href="https://www.youtube.com/watch?v=fRbOx5OITP0&ab_channel=SonyPicturesReleasingUK">
+		<img class="film11" src="film5.jpg"></div>
+		
+		<div class="film6">
+		<a href="https://www.youtube.com/watch?v=09w9MTtZDEM&ab_channel=SonyPicturesEntertainment">
+		<img class="film11" src="film6.jpg"></div>
+
+		<div class="zavise">
+		<a href="https://sr.wikipedia.org/sr/%D0%94%D1%80%D1%83%D0%B3%D0%B8_%D1%81%D0%B2%D0%B5%D1%82%D1%81%D0%BA%D0%B8_%D1%80%D0%B0%D1%82"> Kliknite za više </a></div>
+</body>
+</html>
